@@ -5,7 +5,7 @@ import template from './todosList.html'
 class TodosListctrl {
     constructor() {
         this.tasks = [
-            {text:"this is task 1"},{"this is task 2"},{"this is task 3"}
+            {text:"this is task 1"},{text:"this is task 2"},{text:"this is task 3"}
         ];
     }
 }
