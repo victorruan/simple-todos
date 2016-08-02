@@ -2,5 +2,4 @@
 git add .;
 git commit -am"~";
 git push;
-ssh victor@www.fanfantec.com 'cd /home/victor/meteor/simple-todos;git pull;meteor'
-open http://139.224.28.249:3000
+ssh victor@www.fanfantec.com 'cd /home/victor/meteor/simple-todos;git pull;'
