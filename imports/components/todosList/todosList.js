@@ -9,7 +9,7 @@ class TodosListCtrl {
         $scope.viewModel(this);
         this.helpers({
             tasks(){
-                return Task.find();
+                return Task.find({});
             }
         })
     }
