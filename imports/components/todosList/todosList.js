@@ -1,6 +1,6 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import { Task } from '../../api/tasks.js'
+import { Tasks } from '../../api/tasks.js'
 import template from './todosList.html';
 
 class TodosListCtrl {
