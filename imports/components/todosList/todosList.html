@@ -1,5 +1,8 @@
 <header>
     <h1>Todo List</h1>
+    <form class="new-task" ng-submit="$ctrl.addTask($ctrl.newTask)">
+        <input type="text" name="text" ng-model="$ctrl.newTask" placeholder="增加新任务"/>
+    </form>
 </header>
 
 <ul>

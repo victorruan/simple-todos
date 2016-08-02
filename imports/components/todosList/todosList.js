@@ -13,6 +13,12 @@ class TodosListCtrl {
             }
         })
     }
+
+    addTask(newTask){
+        Tasks.insert(
+            {text:newTask,createAt:new Date}
+        );
+    }
 }
 
 export default angular.module('todosList', [
