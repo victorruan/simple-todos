@@ -9,7 +9,7 @@ class TodosListCtrl {
         $scope.viewModel(this);
         this.helpers({
             tasks(){
-                return Tasks.find({});
+                return Tasks.find({},{sort:{createAt:-1}});
             }
         })
     }
@@ -18,6 +18,7 @@ class TodosListCtrl {
         Tasks.insert(
             {text:newTask,createAt:new Date}
         );
+        this.newTask = '';
     }
 }
 
